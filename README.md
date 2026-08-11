@@ -38,9 +38,9 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
-1. Jorge Luis Francisco Fernando Claros Segura, j.claross2@uniandes.edu.co , Desarrollodor de la funcionalidad del proyecto.
-2. Larry Thomas Sanchez Beltran, lt.sanchezb1@uniandes.edu.co , Desarrollodor de la funcionalidad del proyecto.
-3. Juan Gonzalez Claros, j.gonzalezc2345@uniandes.edu.co, Desarrollodor de la funcionalidad del proyecto.
+1. Jorge Luis Francisco Fernando Claros Segura, j.claross2@uniandes.edu.co , Desarrollador de la funcionalidad del proyecto.
+2. Larry Thomas Sanchez Beltran, lt.sanchezb1@uniandes.edu.co , Desarrollador de la funcionalidad del proyecto.
+3. Juan Gonzalez Claros, j.gonzalezc2345@uniandes.edu.co, Desarrollador de la funcionalidad del proyecto.
 
 [Volver al inicio](#laboratorio-1)
 
