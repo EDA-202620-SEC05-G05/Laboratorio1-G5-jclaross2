@@ -126,21 +126,17 @@ def load_books_tags(catalog, filename):
     """
     Carga los tags de los libros del archivo y los agrega a la lista
     de tags. Siga el mismo procedimiento que en la carga de libros.
-
-    :param catalog: Catalogo de la aplicación
-    :type catalog: dict
-    :param filename: Nombre del archivo csv con los tags de los libros
-    :type filename: str
-
-    :returns: Tamaño del conjunto de tags de los libros
-    :rtype: int
+    …
     """
     # TODO: Mods Lab 1, integrar vista y logica
-    # Implemente una función que cargue los tags de los libros en el catalogo.
-    # La función debe recibir el catalogo y el nombre del archivo csv con los tags de los libros.
-    # La función debe cargar los tags de los libros del archivo y los agregar al conjunto book_tags del catalogo.
-    # La función debe retornar el tamaño del conjunto de tags de los libros.
-    pass
+    # …
+    book_tags = catalog.get("Book_tags")
+    book_tags_file = os.path.join(data_dir, filename)
+    catalog["Book_tags"] = set.load_set(book_tags, book_tags_file)
+    if book_tags is None:
+        return None
+    else:
+        return set.size(catalog.get("Book_tags"))
 
 # Funciones de consulta
 
